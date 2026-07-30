@@ -3,7 +3,7 @@
 ║  JAIVARDHAN OS · v2.0.7                                                 ║
 ║  This README is the front-end of a personal operating system.           ║
 ║  Every section is a module. Every scroll is a level.                    ║
-║  Built with 54+ custom SVGs, animated states, and a single rule:        ║
+║  Built with 68+ custom SVGs, animated states, and a single rule:        ║
 ║  ▸ Engineering imagination into reliable systems.                     ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 LAST_BUILD_DATE · 2026-07-30
