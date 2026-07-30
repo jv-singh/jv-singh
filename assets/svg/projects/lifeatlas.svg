@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="LifeAtlas LPI — Multi-Agent Digital Twin Poster">
+  <title>LifeAtlas LPI — Project Poster</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1832"/>
+      <stop offset="100%" stop-color="#020410"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e3a8a" stroke-width="0.5" stroke-opacity="0.6"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'JetBrains Mono', monospace; }
+      .sans { font-family: 'Inter', system-ui, sans-serif; }
+      .pulse { animation: p 2.4s ease-in-out infinite; transform-origin: center; }
+      @keyframes p { 0%,100%{opacity:0.5} 50%{opacity:1} }
+      .ring { animation: r 12s linear infinite; transform-origin: center; }
+      @keyframes r { to { transform: rotate(360deg); } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <rect width="1200" height="700" fill="url(#grid)" opacity="0.6"/>
+  <ellipse cx="600" cy="320" rx="540" ry="280" fill="url(#spot)"/>
+
+  <g transform="translate(60,60)">
+    <rect width="280" height="32" rx="4" fill="#06070d" stroke="#3b82f6"/>
+    <text x="20" y="22" class="mono" font-size="11" fill="#3b82f6" letter-spacing="3">▸ PROJECT_04 · MULTI-AGENT</text>
+  </g>
+  <g transform="translate(1140,60)" text-anchor="end">
+    <text class="mono" font-size="11" fill="#22d3ee" letter-spacing="2">STATUS · DEPLOYED</text>
+    <text y="20" class="mono" font-size="9" fill="#64748b">v1.0 · A2A · MCP</text>
+  </g>
+
+  <g transform="translate(60,180)">
+    <text class="sans" font-size="14" letter-spacing="8" fill="#3b82f6">// MULTI-AGENT DIGITAL TWIN</text>
+    <text y="100" class="sans" font-size="100" font-weight="900" fill="url(#title)" filter="url(#bloom)" letter-spacing="-2">LIFEATLAS</text>
+    <text y="190" class="sans" font-size="90" font-weight="900" fill="url(#title)" filter="url(#bloom)" letter-spacing="-1">L · P · I</text>
+  </g>
+
+  <!-- Agent mesh -->
+  <g transform="translate(720,180)">
+    <rect width="420" height="380" rx="6" fill="#06070d" stroke="#1e3a8a"/>
+    <text x="20" y="30" class="mono" font-size="10" fill="#3b82f6" letter-spacing="3">▌ AGENT MESH · A2A + MCP</text>
+
+    <g transform="translate(210,200)">
+      <!-- Rotating rings -->
+      <g class="ring">
+        <circle r="160" fill="none" stroke="#3b82f6" stroke-width="0.5" stroke-dasharray="2 8"/>
+      </g>
+      <g class="ring" style="animation-direction: reverse;">
+        <circle r="130" fill="none" stroke="#a78bfa" stroke-width="0.6" stroke-dasharray="3 6"/>
+      </g>
+
+      <!-- Central digital twin -->
+      <circle r="40" fill="#0a0a1a" stroke="url(#title)" stroke-width="1.4" filter="url(#bloom)"/>
+      <text text-anchor="middle" y="-2" class="mono" font-size="9" fill="#22d3ee">DIGITAL</text>
+      <text text-anchor="middle" y="10" class="mono" font-size="9" fill="#22d3ee">TWIN</text>
+      <circle r="6" fill="#3b82f6" class="pulse"/>
+
+      <!-- 6 satellites -->
+      <g fill="none" stroke="#3b82f6" stroke-width="1" stroke-dasharray="2 4">
+        <line x1="0" y1="0" x2="160" y2="0"/>
+        <line x1="0" y1="0" x2="-160" y2="0"/>
+        <line x1="0" y1="0" x2="80" y2="-138"/>
+        <line x1="0" y1="0" x2="-80" y2="-138"/>
+        <line x1="0" y1="0" x2="80" y2="138"/>
+        <line x1="0" y1="0" x2="-80" y2="138"/>
+      </g>
+
+      <g class="mono" font-size="8" fill="#cbd5e1" text-anchor="middle">
+        <g transform="translate(160,0)"><circle r="8" fill="#3b82f6" filter="url(#bloom)"/><text y="22">planner</text></g>
+        <g transform="translate(-160,0)"><circle r="8" fill="#a78bfa" filter="url(#bloom)"/><text y="22">memory</text></g>
+        <g transform="translate(80,-138)"><circle r="8" fill="#22d3ee" filter="url(#bloom)"/><text y="22">retriever</text></g>
+        <g transform="translate(-80,-138)"><circle r="8" fill="#ec4899" filter="url(#bloom)"/><text y="22">tool</text></g>
+        <g transform="translate(80,138)"><circle r="8" fill="#10b981" filter="url(#bloom)"/><text y="22">executor</text></g>
+        <g transform="translate(-80,138)"><circle r="8" fill="#f59e0b" filter="url(#bloom)"/><text y="22">critic</text></g>
+      </g>
+    </g>
+
+    <text x="20" y="364" class="mono" font-size="9" fill="#64748b" letter-spacing="2">▸ A2A protocol  ·  MCP servers  ·  Python  ·  LangGraph</text>
+  </g>
+
+  <!-- Stats -->
+  <g transform="translate(60,540)">
+    <rect width="640" height="100" rx="6" fill="#06070d" stroke="#1e3a8a"/>
+    <text x="20" y="30" class="mono" font-size="9" fill="#3b82f6" letter-spacing="2">COORDINATION</text>
+    <text x="20" y="60" class="sans" font-size="13" fill="#cbd5e1">Agents negotiate via shared state,</text>
+    <text x="20" y="80" class="sans" font-size="13" fill="#cbd5e1">share tools through MCP, plan via A2A.</text>
+  </g>
+  <g transform="translate(740,540)">
+    <rect width="400" height="100" rx="6" fill="#06070d" stroke="#1e3a8a"/>
+    <text x="20" y="30" class="mono" font-size="9" fill="#a78bfa" letter-spacing="2">FUTURE</text>
+    <text x="20" y="60" class="sans" font-size="13" fill="#cbd5e1">Multi-tenant twins,</text>
+    <text x="20" y="80" class="sans" font-size="13" fill="#cbd5e1">cross-org A2A mesh.</text>
+  </g>
+
+  <g transform="translate(60,660)">
+    <text class="mono" font-size="10" fill="#22d3ee">▌ STACK</text>
+    <text x="80" class="mono" font-size="10" fill="#94a3b8">Python · A2A · MCP · LangGraph · Postgres · Vector DB · Docker</text>
+  </g>
+</svg>

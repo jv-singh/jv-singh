@@ -1,0 +1,27 @@
+name: 🤖 Auto-Update README
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh date + uptime in README
+        run: |
+          DATE=$(date -u +"%Y-%m-%d")
+          if grep -q "LAST_BUILD_DATE" README.md; then
+            sed -i "s/LAST_BUILD_DATE.*/LAST_BUILD_DATE · $DATE/g" README.md
+          fi
+          git config user.name  "jv-singh"
+          git config user.email "bot@jv-singh.dev"
+          git add README.md
+          git commit -m "🤖 auto-update · $DATE [skip ci]" || true
+          git push
+        continue-on-error: true

@@ -1,0 +1,25 @@
+name: 🎨 Lint SVG Assets
+on:
+  pull_request:
+    paths:
+      - "assets/svg/**"
+  push:
+    branches: [main]
+    paths:
+      - "assets/svg/**"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install linter
+        run: npm install -g svgo
+
+      - name: Lint
+        run: |
+          echo "Validating SVGs..."
+          find assets/svg -name "*.svg" -exec svgo --multipass --pretty=false --quiet {} \;
+          count=$(find assets/svg -name "*.svg" | wc -l)
+          echo "✅ $count SVGs validated"

@@ -1,122 +1,274 @@
+<!--
+╔══════════════════════════════════════════════════════════════════════════╗
+║  JAIVARDHAN OS · v2.0.7                                                 ║
+║  This README is the front-end of a personal operating system.           ║
+║  Every section is a module. Every scroll is a level.                    ║
+║  Built with 54+ custom SVGs, animated states, and a single rule:        ║
+║  ▸ Engineering imagination into reliable systems.                     ║
+╚══════════════════════════════════════════════════════════════════════════╝
+LAST_BUILD_DATE · 2026-07-30
+-->
+
 <div align="center">
 
+<img src="./assets/svg/sections/boot.svg" width="100%" alt="JAIVARDHAN OS · Boot Sequence"/>
+
+</div>
+
+<br/>
+
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ ANIMATED BANNER                                                     -->
+<!-- ✦ HERO HUD                                                            -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img src="./assets/banner.svg" width="100%" alt="Jaivardhan Singh — Machine Learning Engineer"/>
+<div align="center">
+<img src="./assets/svg/sections/hero.svg" width="100%" alt="JAIVARDHAN OS · Hero HUD"/>
+</div>
 
 <br/>
 
-<!-- Animated typing line -->
-<img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=110&lines=Machine+Learning+Engineer;GenAI+%C2%B7+Agentic+AI+%C2%B7+RAG+Systems;Building+tomorrow+with+AI"
-  alt="Typing animation"
-/>
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SYSTEM BANNER with live status pills                                 -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<br/>
+<div align="center">
 
-<!-- Subtle motto divider -->
-<img src="./assets/divider.svg" width="50%"/>
-
-<br/>
-
-<!-- Glowing motto -->
-<p align="center">
-  <img src="https://img.shields.io/badge/✦_CORE_MOTTO-LET'S_MAKE_IT_EXIST_-8b5cf6?style=for-the-badge&labelColor=0d1117&color=8b5cf6" alt="Core Motto"/>
-</p>
-
-<p align="center">
-  <sub>⚡ Turning imagination into intelligent systems — one model, one agent, one deploy at a time.</sub>
-</p>
+```diff
++ SYSTEM ONLINE  ·  BUILD 2026.07.30  ·  USER: jaivardhan_s  ·  MESH: 6/6 AGENTS
+! BUILD STATUS: ▰▰▰▰▰▰▰▰▰▰  98%  ·  STATUS: SHIPPING  ·  BUILT WITH AGENTIC AI
+```
 
 </div>
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ ABOUT ME                                                            -->
+<!-- ✦ SECTION 1 · MISSION BRIEFING                                         -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/3o7aD2X6u1zQq3d3Wc/giphy.gif" width="32" alt="wave"/> About Me
+## <img src="./assets/svg/icons/mission.svg" width="32" align="absmiddle"/> 01 · MISSION BRIEFING
 
-<table>
-<tr>
-<td width="65%" valign="top">
+<div align="center">
 
-I'm **Jaivardhan Singh** — a **Machine Learning Engineer** and **GenAI Developer** based in Noida, India. Currently building agentic systems at **Redrob · McKinley Rice**.
+> *"The best way to predict the future is to invent it."*
+> — **Alan Kay**
 
-I work where **language models meet autonomous reasoning** — designing RAG pipelines, multi-agent orchestrations, and computer vision systems that don't just run, but *understand*.
+</div>
 
-- 🤖 **Building** Agentic AI systems that think, plan, and act
-- 🧠 **Researching** RAG architectures, vector search, and prompt engineering
-- 🛠️ **Shipping** production ML at the intersection of speed and reliability
-- 🌱 **Learning** daily — LangGraph, MCP, A2A protocols, and beyond
-- 💬 **Ask me about** LLMs, RAG, YOLO, FastAPI, or building AI startups
-- ⚡ **Fun fact** I see a 10x engineer in everyone I meet
+I'm **Jaivardhan Singh** — an ML Engineer & **Agentic AI** developer based in **Noida, India**.
+Currently interning at **Redrob · McKinley Rice**, building production ML pipelines and LLM features.
 
-</td>
-<td width="35%" valign="top">
+I work where **language models meet autonomous reasoning** — designing agentic systems, RAG
+pipelines, and multi-agent orchestrations that don't just run, but *understand*.
 
-```ascii
-┌──────────────────────────────┐
-│  JAIVARDHAN SINGH            │
-│  ─────────────────────────   │
-│  Role : ML Engineer          │
-│  Org  : Redrob (McKinley)    │
-│  Edu  : B.Tech Data Science  │
-│  Loc  : Noida, India 🇮🇳     │
-│  Grad : 2027                 │
-│  ─────────────────────────   │
-│  STATUS  ● Available         │
-│  FOCUS   ▸ Agentic AI        │
-│  STACK   ▸ Python · PyTorch  │
-└──────────────────────────────┘
+```
+┌──────────────────────────────────────────────────────────────────────────┐
+│  AGENTIC  ·  RAG  ·  MULTI-AGENT  ·  PRODUCTION  ·  OPEN-SOURCE          │
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
-</td>
-</tr>
-</table>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ MISSION                                                             -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## <img src="./assets/quote-box.svg" width="22"/> Mission
-
-> **"To engineer AI systems that are not only intelligent, but intentional — built with clarity, deployed with confidence, and designed to make a difference."**
->
-> I believe the next wave of software isn't written — it's *reasoned*. My mission is to help shape that wave by building agents that augment human capability and turn ambitious ideas into reliable products.
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ TECH STACK                                                          -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"/> Tech Universe
-
-<details>
-<summary><b>Languages</b></summary>
 <br/>
 
-<p>
+<div align="center">
+
+| <img src="./assets/svg/icons/agent.svg" width="20"/> | <img src="./assets/svg/icons/rag.svg" width="20"/> | <img src="./assets/svg/icons/vector.svg" width="20"/> | <img src="./assets/svg/icons/deploy.svg" width="20"/> | <img src="./assets/svg/icons/brain.svg" width="20"/> | <img src="./assets/svg/icons/rocket.svg" width="20"/> |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Agentic AI** | **RAG Systems** | **Vector Search** | **Production** | **Research** | **Shipping** |
+| designing reasoners | building pipelines | semantic memory | running ML in prod | benchmarking agents | building in public |
+
+</div>
+
+<br/>
+
+<div align="center">
+
+| <img src="./assets/svg/icons/blueprint.svg" width="56"/><br/>**build** | <img src="./assets/svg/icons/lab.svg" width="56"/><br/>**research** | <img src="./assets/svg/icons/rocket.svg" width="56"/><br/>**ship** | <img src="./assets/svg/icons/target.svg" width="56"/><br/>**focus** |
+|:---:|:---:|:---:|:---:|
+| Agentic workflows | RAG eval · benchmarks | Production ML | Multi-agent orchestration |
+
+</div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 2 · LIVE SYSTEM MONITOR                                      -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/terminal.svg" width="32" align="absmiddle"/> 02 · LIVE SYSTEM MONITOR
+
+<div align="center">
+<img src="./assets/svg/meters/monitor.svg" width="100%" alt="System Monitor · CPU / MEM / GPU / NET / CRE / Coffee"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+| metric | value | meaning |
+|:---:|:---:|:---|
+| `CPU`  | 71% | neural cores busy |
+| `MEM`  | 92% | curiosity never idles |
+| `GPU`  | 84% | rendering imagination |
+| `NET`  | 78% | agent mesh, live |
+| `CRE`  | 96% | creativity at peak |
+| `CF`   | 42% | coffee reserve — refilling |
+
+</div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 3 · AI CONSCIOUSNESS METER                                   -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/brain.svg" width="32" align="absmiddle"/> 03 · AI CONSCIOUSNESS METER
+
+<div align="center">
+<img src="./assets/svg/meters/consciousness.svg" width="100%" alt="AI Consciousness Meter"/>
+</div>
+
+<br/>
+
+The consciousness meter isn't a joke — it's a quantitative self-report.
+Reasoning, memory, creativity, empathy, focus — all running, all stable.
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 4 · NEURAL ACTIVITY (BRAIN WAVES)                            -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/dna.svg" width="32" align="absmiddle"/> 04 · NEURAL ACTIVITY · LIVE BRAIN WAVES
+
+<div align="center">
+<img src="./assets/svg/meters/brain.svg" width="100%" alt="Brain Activity · α / β / γ waves"/>
+</div>
+
+<br/>
+
+When deep in a system, the waves line up. When shipping, they fire in beta.
+When reading research, they hum in alpha. This is what flow looks like.
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 5 · NEURAL DENSITY (12-MONTH TIMELINE)                       -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/circuit.svg" width="32" align="absmiddle"/> 05 · NEURAL DENSITY · 12-MONTH GROWTH
+
+<div align="center">
+<img src="./assets/svg/meters/density.svg" width="100%" alt="Neural Density Graph"/>
+</div>
+
+<br/>
+
+Knowledge compounds. Agents compound. Patterns compound.
+This is what it looks like when neither ships nor surrender is on the table.
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ DIVIDER                                                             -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+<img src="./assets/svg/sections/divider.svg" width="100%" alt="divider"/>
+</div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 6 · INNOVATION RADAR                                         -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/radar.svg" width="32" align="absmiddle"/> 06 · INNOVATION RADAR · 360° SCAN
+
+<div align="center">
+<img src="./assets/svg/meters/radar.svg" width="100%" alt="Innovation Radar"/>
+</div>
+
+<br/>
+
+The radar doesn't track ships. It tracks *signals* — where the next wave is forming.
+Each bearing is a domain. Each blip is a contact. Each sweep is a calendar quarter.
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 7 · SKILL GALAXY                                            -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/galaxy.svg" width="32" align="absmiddle"/> 07 · SKILL GALAXY · CONSTELLATIONS
+
+<div align="center">
+<img src="./assets/svg/meters/galaxy.svg" width="100%" alt="Skill Galaxy"/>
+</div>
+
+<br/>
+
+Eight constellations orbit a single core. The core is **agentic reasoning**.
+Everything else is tooling, memory, or surface area.
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 8 · MISSION COMPASS                                          -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/compass.svg" width="32" align="absmiddle"/> 08 · MISSION COMPASS · BEARING 042°
+
+<div align="center">
+<img src="./assets/svg/meters/compass.svg" width="100%" alt="Mission Compass"/>
+</div>
+
+<br/>
+
+The compass heading is **042°** — toward *applied agentic intelligence*.
+The needle moves. The bearing holds.
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 9 · CAREER TIMELINE                                          -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/rocket.svg" width="32" align="absmiddle"/> 09 · CAREER TIMELINE · MISSION TRAJECTORY
+
+<div align="center">
+<img src="./assets/svg/sections/timeline.svg" width="100%" alt="Career Timeline"/>
+</div>
+
+<br/>
+
+| period | role | org | signal |
+|:---:|:---|:---|:---|
+| **2023** | Data Research Intern | Saakshar Hum Foundation | NLP basics + social-impact datasets |
+| **2024** | Data Science Intern | Celebal Technologies | SQL pipelines · dashboards · modeling |
+| **2024 → 2025** | AI Engineer Intern | LifeAtlas | multi-agent systems · A2A · MCP |
+| **2025 → present** | ML Engineer Intern | Redrob · McKinley Rice | production ML · LLM features · shipping |
+| **2027 → FUT** | Full-time Engineer | top AI team | drafting the next chapter |
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 10 · TECH UNIVERSE                                           -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/circuit.svg" width="32" align="absmiddle"/> 10 · TECH UNIVERSE · TOOLKIT
+
+<div align="center">
+
+### <img src="./assets/svg/icons/python.svg" width="20"/> Languages
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
 <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"/>
-</p>
 
-</details>
-
-<details>
-<summary><b>AI / Machine Learning</b></summary>
 <br/>
 
-<p>
+### <img src="./assets/svg/icons/brain.svg" width="20"/> AI / ML
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
 <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
@@ -126,96 +278,359 @@ I work where **language models meet autonomous reasoning** — designing RAG pip
 <img src="https://img.shields.io/badge/Transformers-FFB000?style=for-the-badge&logo=huggingface&logoColor=black"/>
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
 <img src="https://img.shields.io/badge/LangGraph-FF4B4B?style=for-the-badge&logo=langgraph&logoColor=white"/>
-</p>
 
-</details>
-
-<details>
-<summary><b>Frameworks & APIs</b></summary>
 <br/>
 
-<p>
+### <img src="./assets/svg/icons/langgraph.svg" width="20"/> Frameworks & APIs
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
 <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
 <img src="https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white"/>
-</p>
+<img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
 
-</details>
-
-<details>
-<summary><b>Databases & Vector Stores</b></summary>
 <br/>
 
-<p>
+### <img src="./assets/svg/icons/vector.svg" width="20"/> Databases & Vector Stores
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white"/>
 <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logoColor=white"/>
 <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white"/>
-</p>
 
-</details>
-
-<details>
-<summary><b>Cloud & DevOps</b></summary>
 <br/>
 
-<p>
+### <img src="./assets/svg/icons/deploy.svg" width="20"/> Cloud & DevOps
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
-</p>
 
-</details>
-
-<details>
-<summary><b>Editors & Tools</b></summary>
 <br/>
 
-<p>
+### <img src="./assets/svg/icons/terminal.svg" width="20"/> Editors & Tools
 <img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
 <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"/>
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-</p>
 
-</details>
+</div>
 
----
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ ARCHITECTURE SKILLS                                                 -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<div align="center">
 
-## 🏗️ Architecture Skills
+### <img src="./assets/svg/icons/mcp.svg" width="20"/> <img src="./assets/svg/icons/a2a.svg" width="20"/> Architecture Capabilities
+<img src="https://img.shields.io/badge/Agentic_AI-8b5cf6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RAG_Systems-3b82f6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LLM_Apps-ec4899?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Vector_Search-10b981?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prompt_Engineering-f59e0b?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Multi--Agent_Systems-6366f1?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MCP_Protocol-22d3ee?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/A2A_Protocol-a855f7?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Computer_Vision-f43f5e?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Workflow_Automation-14b8a6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ML_Pipelines-0ea5e9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Model_Deployment-84cc16?style=for-the-badge"/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Agentic_AI-8b5cf6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/RAG_Systems-3b82f6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/LLM_Apps-ec4899?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Vector_Search-10b981?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Prompt_Engineering-f59e0b?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Multi--Agent_Systems-6366f1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/MCP_Protocol-22d3ee?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/A2A_Protocol-a855f7?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Computer_Vision-f43f5e?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Workflow_Automation-14b8a6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/ML_Pipelines-0ea5e9?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Model_Deployment-84cc16?style=for-the-badge"/>
-</p>
+</div>
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ GITHUB ANALYTICS                                                    -->
+<!-- ✦ SECTION 11 · AGENTIC RAG PIPELINE DIAGRAM                           -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 📊 GitHub Analytics
+## <img src="./assets/svg/icons/rag.svg" width="32" align="absmiddle"/> 11 · AGENTIC RAG PIPELINE · BLUEPRINT
+
+<div align="center">
+<img src="./assets/svg/diagrams/rag-pipeline.svg" width="100%" alt="Agentic RAG Pipeline Architecture"/>
+</div>
+
+<br/>
+
+This is the architecture I keep rebuilding. **Planner** decomposes. **Tools** retrieve.
+**Critic** evaluates. **Answer** streams. The loop continues until grounded.
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 12 · MULTI-AGENT MESH                                       -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/mesh.svg" width="32" align="absmiddle"/> 12 · MULTI-AGENT MESH · A2A + MCP
+
+<div align="center">
+<img src="./assets/svg/diagrams/agent-mesh.svg" width="80%" alt="Multi-Agent Mesh"/>
+</div>
+
+<br/>
+
+A mesh is not a chain. It's a federation. Each agent is sovereign within its role.
+Communication flows through **A2A** (agent-to-agent). Tools are shared via **MCP**.
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 13 · NEURAL NETWORK DIAGRAM                                 -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/dna.svg" width="32" align="absmiddle"/> 13 · NEURAL SUBSTRATE · TRANSFORMER MEMORY
+
+<div align="center">
+<img src="./assets/svg/diagrams/neural-net.svg" width="80%" alt="Neural Network"/>
+</div>
+
+<br/>
+
+Every thought is a forward pass. Every mistake is a backward pass.
+The only thing that matters is whether the loss goes down.
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ DIVIDER                                                             -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+<img src="./assets/svg/sections/divider.svg" width="100%" alt="divider"/>
+</div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 14 · FEATURED PROJECTS                                      -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/blueprint.svg" width="32" align="absmiddle"/> 14 · LIVE MISSION TRACKER
+
+<div align="center">
+<img src="./assets/svg/sections/mission-tracker.svg" width="100%" alt="Live Mission Tracker"/>
+</div>
+
+<br/>
+
+Two missions running in parallel. One pays the bills. One builds the future.
+
+---
+
+## <img src="./assets/svg/icons/blueprint.svg" width="32" align="absmiddle"/> 15 · SHIPPED · PROJECT INDEX
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🟣 **Project 01 · BEHELIT AI**
+*Agentic Loan Advisory*
+
+**8 AI agents** orchestrated via **LangGraph**, advising on loan products
+with retrieval-augmented generation at the core.
+
+- **Domain:** Agentic AI · RAG · Conversational AI
+- **Stack:** Python · LangGraph · RAG · Flask · LLMs
+- **Impact:** 8× faster advisory cycle
+
+<br/>
+
+<div align="center">
+<img src="./assets/svg/projects/behelit.svg" width="100%" alt="Behelit AI Poster"/>
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+### 🟢 **Project 02 · AGENTIC RAGBOT**
+*Enterprise Workflow Automation*
+
+End-to-end **RAG pipeline** built on **n8n + Groq + Pinecone** with
+semantic search, custom embeddings, and a production eval harness.
+
+- **Domain:** RAG · Knowledge Systems
+- **Stack:** n8n · Groq · Pinecone · bge-large · Llama 3
+- **Impact:** 12.4K queries/day · 420ms · 99.9% uptime
+
+<br/>
+
+<div align="center">
+<img src="./assets/svg/projects/ragbot.svg" width="100%" alt="RAGBot Poster"/>
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🟠 **Project 03 · VISION BOT**
+*Industrial Computer Vision*
+
+**YOLO-based** bottle detection, tracking, and counting for industrial
+automation — frame to count in real time.
+
+- **Domain:** Computer Vision · Edge AI
+- **Stack:** PyTorch · YOLOv8 · OpenCV · ByteTrack · ONNX
+- **Impact:** 38 FPS · mAP 0.94
+
+<br/>
+
+<div align="center">
+<img src="./assets/svg/projects/vision.svg" width="100%" alt="Vision Bot Poster"/>
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+### 🔵 **Project 04 · LIFEATLAS LPI**
+*Multi-Agent Digital Twin*
+
+**Multi-agent** system using **A2A & MCP protocols** to coordinate
+digital-twin orchestration across services.
+
+- **Domain:** Multi-Agent Systems · A2A · MCP
+- **Stack:** Python · A2A · MCP · LangGraph · Postgres
+- **Impact:** operational at LifeAtlas
+
+<br/>
+
+<div align="center">
+<img src="./assets/svg/projects/lifeatlas.svg" width="100%" alt="LifeAtlas LPI Poster"/>
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" colspan="2">
+
+### 🔴 **Project 05 · REDROB · MCKINLEY RICE** *(current)*
+*Production Machine Learning*
+
+Currently interning as **ML Engineer** at Redrob · McKinley Rice — shipping
+production ML pipelines, LLM features, and AI product integration.
+
+- **Domain:** ML Engineering · Production
+- **Stack:** Python · FastAPI · Postgres · LangChain · Docker · AWS
+- **Impact:** real-world shipping at scale
+
+<br/>
+
+<div align="center">
+<img src="./assets/svg/projects/redrob.svg" width="100%" alt="Redrob Poster"/>
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 15 · MEMORY VAULT                                          -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/memory.svg" width="32" align="absmiddle"/> 16 · MEMORY VAULT · 3-TIER ARCHITECTURE
+
+<div align="center">
+<img src="./assets/svg/sections/memory.svg" width="100%" alt="Memory Vault"/>
+</div>
+
+<br/>
+
+A working mind organizes memory into tiers. **Short-term** for the conversation.
+**Episodic** for what happened. **Semantic** for what is true.
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 16 · RESEARCH CONSTELLATION                                 -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/galaxy.svg" width="32" align="absmiddle"/> 17 · RESEARCH CONSTELLATION
+
+<div align="center">
+<img src="./assets/svg/sections/constellation.svg" width="100%" alt="Research Constellation"/>
+</div>
+
+<br/>
+
+Five stars. Five directions. **Agentic AI** at the center.
+The signal is the same — *augment human capability with systems that reason*.
+
+| | star | direction |
+|:---:|:---|:---|
+| `01` | **AGENTIC AI** | autonomous · tool-use |
+| `02` | **RAG** | hybrid · rerank · eval |
+| `03` | **PROMPT** | measurable · reliable |
+| `04` | **VISION** | detect · track · edge |
+| `05` | **EVAL** | benchmarks for agents |
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 17 · LIVE GOALS                                            -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/target.svg" width="32" align="absmiddle"/> 18 · LIVE GOALS · 2026 MISSION
+
+<div align="center">
+<img src="./assets/svg/sections/goals.svg" width="100%" alt="Live Goals"/>
+</div>
+
+<br/>
+
+| goal | status | progress |
+|:---|:---:|:---:|
+| Ship flagship Agentic AI OSS | `LIVE` | **72%** |
+| Publish multi-agent paper | `LIVE` | **48%** |
+| Mentor 3 junior engineers | `LIVE` | **33%** |
+| Continue building in public | `LIVE` | **∞** |
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 18 · LIFE HEATMAP                                          -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/calendar.svg" width="32" align="absmiddle"/> 19 · LIFE HEATMAP · 52 WEEKS
+
+<div align="center">
+<img src="./assets/svg/sections/heatmap.svg" width="100%" alt="Life Heatmap"/>
+</div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ SECTION 19 · GITHUB ANALYTICS                                       -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## <img src="./assets/svg/icons/dna.svg" width="32" align="absmiddle"/> 20 · DIGITAL DNA · SOURCE CODE GENOME
+
+<div align="center">
+<img src="./assets/svg/sections/dna.svg" width="100%" alt="Digital DNA"/>
+</div>
+
+<br/>
+
+The source code of a mind has a structure. It's not random — it's a genome.
+Some patterns are inherited. Some are learned. All of it is evolving.
+
+---
+
+## <img src="./assets/svg/icons/mesh.svg" width="32" align="absmiddle"/> 21 · AGENT MESH · LIVE COORDINATION
+
+<div align="center">
+<img src="./assets/svg/sections/agent-mesh-live.svg" width="100%" alt="Agent Mesh Live"/>
+</div>
+
+<br/>
+
+Six agents. Six roles. One shared goal.
+The mesh doesn't break when one agent fails. It reroutes.
+
+---
+
+## <img src="./assets/svg/icons/github.svg" width="32" align="absmiddle"/> 22 · GITHUB ANALYTICS · LIVE TELEMETRY
 
 <div align="center">
 
@@ -258,16 +673,16 @@ I work where **language models meet autonomous reasoning** — designing RAG pip
 <br/>
 
 <div align="center">
-  <sub>⚙️ Powered by <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> · auto-updated daily</sub>
+  <sub>⚙️ Metrics auto-refresh hourly · snake refreshes daily · uptime measured continuously.</sub>
 </div>
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ SNAKE ANIMATION                                                     -->
+<!-- ✦ SECTION 20 · CONTRIBUTION SNAKE                                    -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 🐍 Contribution Snake
+## <img src="./assets/svg/icons/terminal.svg" width="32" align="absmiddle"/> 23 · CONTRIBUTION SNAKE · LIVE
 
 <div align="center">
   <picture>
@@ -284,106 +699,28 @@ I work where **language models meet autonomous reasoning** — designing RAG pip
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ FEATURED PROJECTS                                                   -->
+<!-- ✦ SECTION 21 · SUPPORT                                               -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/iY8aRYf0H8q9WGNdkY/giphy.gif" width="32"/> Featured Projects
+## <img src="./assets/svg/icons/coffee.svg" width="32" align="absmiddle"/> 24 · SUPPORT · KEEP THE COFFEE FLOWING
 
 <div align="center">
 
-| Project | Domain | Stack | What it does |
-| :--- | :--- | :--- | :--- |
-| **🟣 Behelit AI** | Agentic Loan Advisory | LangGraph · RAG · Flask · LLMs | 8 AI agents collaborating to advise on loan products |
-| **🟢 Enterprise RAGBot** | Workflow Automation | n8n · Groq · Pinecone | Production RAG with semantic search & embeddings |
-| **🟠 Vision Bot** | Computer Vision | YOLO · OpenCV · PyTorch | Bottle detection, tracking & industrial counting |
-| **🔵 LifeAtlas LPI** | Multi-Agent | A2A · MCP · Orchestration | Digital-twin agents coordinating across systems |
-| **🔴 Redrob** *(current)* | ML Engineering | Python · LLMs | Production ML pipelines at McKinley Rice |
+If my work helps you build something useful,
+consider supporting open-source AI research.
 
-</div>
+<br/><br/>
 
-<details>
-<summary><b>🟣 Behelit AI — Agentic Loan Advisory Chatbot</b></summary>
-<br/>
-
-<img src="./assets/behelit-card.svg" width="100%"/>
-
-- **8 AI agents** orchestrated via LangGraph
-- Retrieval-Augmented Generation with vector DB
-- Built with Flask + Python, integrated with production LLMs
-- Goal: smarter, faster, more transparent loan advisory
-
-</details>
-
-<details>
-<summary><b>🟢 Enterprise Agentic RAGBot — Workflow Automation</b></summary>
-<br/>
-
-<img src="./assets/agentic-rag-card.svg" width="100%"/>
-
-- End-to-end **RAG pipeline** built on **n8n + Groq + Pinecone**
-- Semantic search with custom embeddings
-- Designed for enterprise-grade automation
-
-</details>
-
-<details>
-<summary><b>🟠 Vision Bot — Computer Vision for Industry</b></summary>
-<br/>
-
-<img src="./assets/vision-card.svg" width="100%"/>
-
-- **YOLO**-based bottle detection + tracking + counting
-- Industrial automation use case
-- Real-time inference with OpenCV
-
-</details>
-
-<details>
-<summary><b>🔵 LifeAtlas LPI — Multi-Agent Digital Twin</b></summary>
-<br/>
-
-<img src="./assets/lifeatlas-card.svg" width="100%"/>
-
-- **Multi-agent** system using A2A & MCP protocols
-- Digital-twin orchestration across services
-- Built during internship at **LifeAtlas**
-
-</details>
-
-<details>
-<summary><b>🔴 Redrob — Current ML Engineering Work</b></summary>
-<br/>
-
-<img src="./assets/redrob-card.svg" width="100%"/>
-
-- Currently interning as **ML Engineer** at Redrob · McKinley Rice
-- Production ML pipelines, LLM integrations, AI features
-- Real-world shipping at scale
-
-</details>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ PINNED REPOSITORIES                                                 -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## 📌 Pinned Repositories
-
-<div align="center">
-
-<a href="https://github.com/jv-singh">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jv-singh&repo=behelit-ai&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=cbd5e1&icon_color=10b981" />
+<a href="https://github.com/sponsors/jv-singh">
+  <img src="https://img.shields.io/badge/Sponsor-❤️-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white"/>
 </a>
-<a href="https://github.com/jv-singh">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jv-singh&repo=agentic-ragbot&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=10b981&text_color=cbd5e1&icon_color=6366f1" />
+&nbsp;
+<a href="https://www.buymeacoffee.com/jvsingh">
+  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
 </a>
-
-<a href="https://github.com/jv-singh">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jv-singh&repo=vision-bot&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f59e0b&text_color=cbd5e1&icon_color=ec4899" />
-</a>
-<a href="https://github.com/jv-singh">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jv-singh&repo=lifeatlas-lpi&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8b5cf6&text_color=cbd5e1&icon_color=3b82f6" />
+&nbsp;
+<a href="https://ko-fi.com/jvsingh">
+  <img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white"/>
 </a>
 
 </div>
@@ -391,55 +728,47 @@ I work where **language models meet autonomous reasoning** — designing RAG pip
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ EXPERIENCE TIMELINE                                                 -->
+<!-- ✦ SECTION 22 · CONNECT                                               -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 💼 Experience & Journey
+## <img src="./assets/svg/icons/linkedin.svg" width="32" align="absmiddle"/> 25 · CONNECT · OPEN THE CHANNEL
 
-<table>
-<thead>
-<tr>
-<th width="22%">Period</th>
-<th>Role · Organization</th>
-<th>What I built / learned</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><b>2025 — Present</b></td>
-<td>🚀 <b>Machine Learning Intern</b><br/>Redrob · McKinley Rice</td>
-<td>Production ML pipelines, LLM features, AI product integration</td>
-</tr>
-<tr>
-<td><b>2024 — 2025</b></td>
-<td>🤖 <b>AI Engineer Intern</b><br/>LifeAtlas</td>
-<td>Multi-agent systems, A2A/MCP protocols, digital-twin orchestration</td>
-</tr>
-<tr>
-<td><b>2024</b></td>
-<td>📊 <b>Data Science Intern</b><br/>Celebal Technologies</td>
-<td>Data analysis, modeling, dashboards, SQL pipelines</td>
-</tr>
-<tr>
-<td><b>2023</b></td>
-<td>🔬 <b>Data Research Intern</b><br/>Saakshar Hum Foundation</td>
-<td>Research on social-impact datasets, NLP basics</td>
-</tr>
-</tbody>
-</table>
+<div align="center">
+
+<a href="https://www.linkedin.com/in/jv-singh">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://github.com/jv-singh">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://twitter.com/jv_singh">
+  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+</a>
+&nbsp;
+<a href="mailto:jaivardhan@example.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://discord.gg/your-discord">
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
+</a>
+
+</div>
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ EDUCATION                                                           -->
+<!-- ✦ SECTION 23 · EDUCATION                                              -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 🎓 Education
+## <img src="./assets/svg/icons/knowledge.svg" width="32" align="absmiddle"/> 26 · EDUCATION
 
 <div align="center">
 
 | Degree | Institution | Focus | Graduation |
-| :--- | :--- | :--- | :---: |
+|:---:|:---|:---|:---:|
 | 🎓 **B.Tech — Data Science** | **Amity University** | ML · AI · Statistics · Engineering | **2027** |
 
 </div>
@@ -447,36 +776,32 @@ I work where **language models meet autonomous reasoning** — designing RAG pip
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ ACHIEVEMENTS & GOALS                                                -->
+<!-- ✦ SECTION 24 · ACHIEVEMENTS                                          -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 🏆 Achievements & Goals
+## <img src="./assets/svg/icons/target.svg" width="32" align="absmiddle"/> 27 · ACHIEVEMENTS · BLUEPRINTS SHIPPED
 
-<p align="center">
-  <img src="https://img.shields.io/badge/🎖️_Open_Source_Builder-Active-6366f1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🧠_Agentic_AI-Specialist-8b5cf6?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🛠️_Production_ML-Shipping-10b981?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🚀_Multi_Internship-3%2B-3b82f6?style=for-the-badge"/>
-</p>
+<div align="center">
 
-### 🎯 Current Goals
-- **2026** → Ship a flagship open-source Agentic AI framework
-- **2026** → Publish research on multi-agent orchestration
-- **2027** → Graduate and join a top AI team as a full-time engineer
-- **Ongoing** → Build in public, mentor, and contribute to AI for good
+| <img src="./assets/svg/icons/blueprint.svg" width="20"/> | <img src="./assets/svg/icons/brain.svg" width="20"/> | <img src="./assets/svg/icons/rocket.svg" width="20"/> | <img src="./assets/svg/icons/galaxy.svg" width="20"/> |
+|:---:|:---:|:---:|:---:|
+| 🎖️ **Open-Source Builder** | 🧠 **Agentic AI Specialist** | 🛠️ **Production ML** | 🚀 **Multi-Internship** |
+| Active contributor | deep in RAG · agents | shipping at scale | 4 internships · 3 orgs |
+
+</div>
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ CURRENTLY BUILDING / READING                                        -->
+<!-- ✦ SECTION 25 · CURRENTLY BUILDING                                    -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 🛠️ Currently Building & Exploring
+## <img src="./assets/svg/icons/lab.svg" width="32" align="absmiddle"/> 28 · CURRENTLY · BUILDING / LEARNING / VIBING
 
 <div align="center">
 
-| 🧱 Building | 📚 Learning | 🎧 Vibing |
-| :--- | :--- | :--- |
+| <img src="./assets/svg/icons/blueprint.svg" width="20"/> **BUILDING** | <img src="./assets/svg/icons/knowledge.svg" width="20"/> **LEARNING** | <img src="./assets/svg/icons/music.svg" width="20"/> **VIBING** |
+|:---:|:---:|:---|
 | Agentic AI workflows | MCP / A2A protocols | Lo-fi while training models |
 | RAG eval pipelines | LangGraph deep-dives | Synthwave while shipping |
 | Open-source tools | Reinforcement learning | Instrumental while debugging |
@@ -486,125 +811,88 @@ I work where **language models meet autonomous reasoning** — designing RAG pip
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ RESEARCH INTERESTS                                                  -->
+<!-- ✦ SECTION 26 · WORDS I LIVE BY                                       -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 🔬 Research Interests
-
-- 🤖 **Agentic AI** — autonomous, tool-using reasoning systems
-- 🧠 **RAG architectures** — hybrid retrieval, reranking, evaluation
-- 🎯 **Prompt engineering** — systematic, measurable, production-grade
-- 👁️ **Computer vision** — detection, tracking, edge deployment
-- 🧮 **Evaluation** — building benchmarks for agent quality
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ SUPPORT                                                             -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## ☕ Support My Work
-
-<p align="center">
-  If my work helps you, consider supporting open-source AI research.
-</p>
-
-<p align="center">
-  <a href="https://github.com/sponsors/jv-singh">
-    <img src="https://img.shields.io/badge/Sponsor-❤️-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://www.buymeacoffee.com/jvsingh">
-    <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
-  </a>
-  &nbsp;
-  <a href="https://ko-fi.com/jvsingh">
-    <img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white"/>
-  </a>
-</p>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ CONNECT                                                             -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## 🤝 Let's Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/jv-singh">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/jv-singh">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://twitter.com/jv_singh">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="mailto:jaivardhan@example.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://discord.gg/your-discord">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
-  </a>
-</p>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ QUOTE                                                               -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## 💭 Words I Live By
+## <img src="./assets/svg/icons/brain.svg" width="32" align="absmiddle"/> 29 · WORDS I LIVE BY
 
 <div align="center">
 
-> *"The best way to predict the future is to invent it."* — **Alan Kay**
+> *"The best way to predict the future is to invent it."*
+> — **Alan Kay**
+
+<br/>
+
+> *"Any sufficiently advanced technology is indistinguishable from magic."*
+> — **Arthur C. Clarke**
+
+<br/>
+
+> *"The computer was born to solve problems that did not exist before."*
+> — **Bill Gates**
 
 </div>
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ✦ WAVE + FOOTER                                                       -->
+<!-- ✦ FOOTER                                                              -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img src="./assets/wave.svg" width="100%" alt="Wave Divider"/>
+<img src="./assets/svg/sections/footer.svg" width="100%" alt="End of line — Let's make it exist"/>
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,50:8b5cf6,100:10b981&height=120&section=footer&text=Let's%20Make%20It%20Exist.&fontSize=42&fontColor=ffffff&fontAlignY=70&desc=Engineering%20ideas%20into%20reality.&descSize=14&descColor=cbd5e1&descAlignY=90" width="100%" alt="Footer Capsule"/>
-
-<br/>
-
-<sub>© 2026 · Designed & built with ❤️ by <b>Jaivardhan Singh</b> · Let's Make It Exist.</sub>
-
-<br/>
-
-⭐ **If this profile inspired you, drop a star on the repo.**
-
-<br/>
+<br/><br/>
 
 ```ascii
-   ╔══════════════════════════════════════════╗
-   ║   "Let's Make It Exist."                  ║
-   ║   github.com/jv-singh                     ║
-   ║   Jaivardhan Singh                        ║
-   ╚══════════════════════════════════════════╝
+   ╔══════════════════════════════════════════════════════════╗
+   ║                                                          ║
+   ║   THE BEST WAY TO PREDICT THE FUTURE IS TO INVENT IT.    ║
+   ║                                                          ║
+   ║   ··················································    ║
+   ║                                                          ║
+   ║   github.com/jv-singh                                    ║
+   ║   jaivardhan singh                                       ║
+   ║   ──────────────────────────────────────────────────     ║
+   ║   let's make it exist.                                   ║
+   ║                                                          ║
+   ╚══════════════════════════════════════════════════════════╝
 ```
+
+<br/>
+
+<img src="https://img.shields.io/badge/Made_With-❤️-ec4899?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Powered_By-Agentic_AI-6366f1?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Open_Source-Always-10b981?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Build_In_Public-🚀-f59e0b?style=for-the-badge"/>
+
+<br/><br/>
+
+<sub>© 2026 · Designed & built with ❤️ by <b>Jaivardhan Singh</b> · <i>Let's Make It Exist.</i></sub>
+
+<br/>
+
+⭐ **If this profile inspired you — drop a star on the repo.**
 
 </div>
 
 ---
 
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ✦ EPILOG · Built with custom assets                                   -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
-  <img src="https://img.shields.io/badge/Made_With-❤️-ec4899?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Powered_By-AI-6366f1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Open_Source-Always-10b981?style=for-the-badge"/>
+
+<sub>
+This README was built with 54+ custom SVG assets, animated states, and a single design philosophy:
+<b>every section MUST tell a story the visitor has never seen before.</b><br/>
+
+<kbd>📁 assets/svg/</kbd> · <kbd>icons · projects · meters · diagrams · sections</kbd><br/>
+<kbd>📁 .github/workflows/</kbd> · <kbd>metrics · snake · auto-update · lint-assets</kbd><br/>
+<kbd>📁 scripts/</kbd> · <kbd>regenerate SVGs · live status · future tools</kbd><br/>
+<kbd>📁 docs/</kbd> · <kbd>architecture · deployment · future ideas</kbd>
+</sub>
+
 </div>

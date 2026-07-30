@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" role="img" aria-label="Brain Activity">
+  <title>Brain Activity — Neural Waves</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0a0a1a"/>
+    </linearGradient>
+    <linearGradient id="lw1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="lw2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#ec4899"/></linearGradient>
+    <linearGradient id="lw3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#10b981"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient>
+    <filter id="b"><feGaussianBlur stdDeviation="1.5"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .mono { font-family: 'JetBrains Mono', monospace; }
+      .scan { animation: scan 4s linear infinite; }
+      @keyframes scan { from { transform: translateX(-560px); } to { transform: translateX(0); } }
+    </style>
+  </defs>
+  <rect width="600" height="240" fill="url(#bg)" rx="8"/>
+  <rect x="20" y="20" width="560" height="200" rx="6" fill="#06070d" stroke="#1e1b4b" stroke-width="1"/>
+
+  <text x="36" y="50" class="mono" font-size="11" fill="#22d3ee" letter-spacing="3">▸ BRAIN ACTIVITY · NEURAL WAVES</text>
+  <text x="564" y="50" text-anchor="end" class="mono" font-size="9" fill="#64748b">3 CHANNELS · 60Hz</text>
+
+  <!-- 3 wave channels -->
+  <g transform="translate(36,80)" class="mono" font-size="8" fill="#64748b">
+    <text x="-4" y="14" text-anchor="end">α</text>
+    <text x="-4" y="58" text-anchor="end">β</text>
+    <text x="-4" y="102" text-anchor="end">γ</text>
+  </g>
+
+  <g transform="translate(36,76)">
+    <!-- Scanline overlay -->
+    <rect class="scan" width="40" height="120" fill="#22d3ee" opacity="0.06"/>
+
+    <!-- Alpha wave -->
+    <path d="M0 16 L20 10 L40 22 L60 12 L80 18 L100 8 L120 16 L140 12 L160 20 L180 10 L200 16 L220 8 L240 18 L260 10 L280 16 L300 8 L320 18 L340 10 L360 16 L380 8 L400 18 L420 10 L440 16 L460 8 L480 18 L500 10 L520 16" fill="none" stroke="url(#lw3)" stroke-width="1.4" filter="url(#b)"/>
+
+    <!-- Beta wave -->
+    <path d="M0 60 L10 50 L20 70 L30 48 L40 68 L50 52 L60 72 L70 50 L80 68 L90 50 L100 72 L110 48 L120 70 L130 52 L140 68 L150 50 L160 72 L170 48 L180 70 L190 52 L200 68 L210 50 L220 72 L230 48 L240 70 L250 52 L260 68 L270 50 L280 72 L290 48 L300 70 L310 52 L320 68 L330 50 L340 72 L350 48 L360 70 L370 52 L380 68 L390 50 L400 72 L410 48 L420 70 L430 52 L440 68 L450 50 L460 72 L470 48 L480 70 L490 52 L500 68 L510 50 L520 72" fill="none" stroke="url(#lw1)" stroke-width="1.4" filter="url(#b)"/>
+
+    <!-- Gamma wave (high freq) -->
+    <path d="M0 100 L5 92 L10 108 L15 96 L20 104 L25 92 L30 108 L35 96 L40 104 L45 92 L50 108 L55 96 L60 104 L65 92 L70 108 L75 96 L80 104 L85 92 L90 108 L95 96 L100 104 L105 92 L110 108 L115 96 L120 104 L125 92 L130 108 L135 96 L140 104 L145 92 L150 108 L155 96 L160 104 L165 92 L170 108 L175 96 L180 104 L185 92 L190 108 L195 96 L200 104 L205 92 L210 108 L215 96 L220 104 L225 92 L230 108 L235 96 L240 104 L245 92 L250 108 L255 96 L260 104 L265 92 L270 108 L275 96 L280 104 L285 92 L290 108 L295 96 L300 104 L305 92 L310 108 L315 96 L320 104 L325 92 L330 108 L335 96 L340 104 L345 92 L350 108 L355 96 L360 104 L365 92 L370 108 L375 96 L380 104 L385 92 L390 108 L395 96 L400 104 L405 92 L410 108 L415 96 L420 104 L425 92 L430 108 L435 96 L440 104 L445 92 L450 108 L455 96 L460 104 L465 92 L470 108 L475 96 L480 104 L485 92 L490 108 L495 96 L500 104 L505 92 L510 108 L515 96 L520 104" fill="none" stroke="url(#lw2)" stroke-width="1.4" filter="url(#b)"/>
+  </g>
+
+  <text x="36" y="208" class="mono" font-size="9" fill="#64748b" letter-spacing="2">▣ ALPHA · calm  ▣ BETA · active  ▣ GAMMA · insight</text>
+  <text x="564" y="208" text-anchor="end" class="mono" font-size="9" fill="#22d3ee">STATE · FLOW</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-label="Section Divider — neural pulse">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/><stop offset="50%" stop-color="#a78bfa" stop-opacity="0.6"/><stop offset="100%" stop-color="#ec4899" stop-opacity="0"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#ec4899"/></linearGradient>
+    <style>
+      .pulse { animation: p 2s ease-in-out infinite; transform-origin: center; }
+      @keyframes p { 0%,100%{opacity:0.4} 50%{opacity:1} }
+      .flow { animation: f 3s linear infinite; }
+      @keyframes f { to { stroke-dashoffset: -400; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <line x1="0" y1="140" x2="1200" y2="140" stroke="url(#line)" stroke-width="1" stroke-dasharray="1 6" class="flow"/>
+
+  <!-- decorative nodes -->
+  <g>
+    <circle cx="200" cy="140" r="6" fill="#22d3ee" class="pulse"/>
+    <circle cx="600" cy="140" r="8" fill="#a78bfa" class="pulse"/>
+    <circle cx="1000" cy="140" r="6" fill="#ec4899" class="pulse"/>
+  </g>
+
+  <text x="600" y="135" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748b" letter-spacing="6">— NEURAL HANDOFF —</text>
+  <text x="600" y="160" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#22d3ee" letter-spacing="4">/ / / SCROLL FORWARD / / /</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="dna icon">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 6 Q44 18 20 30 Q44 42 20 54 Q44 42 20 30 Q44 18 20 6"/>
+    <path d="M44 6 Q20 18 44 30 Q20 42 44 54 Q20 42 44 30 Q20 18 44 6"/>
+    <line x1="22" y1="14" x2="42" y2="14"/>
+    <line x1="22" y1="22" x2="42" y2="22"/>
+    <line x1="22" y1="30" x2="42" y2="30"/>
+    <line x1="22" y1="38" x2="42" y2="38"/>
+    <line x1="22" y1="46" x2="42" y2="46"/>
+  </g>
+</svg>

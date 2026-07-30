@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-label="Live Mission Tracker">
+  <title>JAIVARDHAN OS · Live Mission Tracker</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#0a0a1a"/><stop offset="100%" stop-color="#020617"/></radialGradient>
+    <radialGradient id="spot" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#22d3ee" stop-opacity="0.4"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#a78bfa"/></linearGradient>
+    <filter id="b"><feGaussianBlur stdDeviation="2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .mono { font-family: 'JetBrains Mono', monospace; }
+      .sans { font-family: 'Inter', system-ui, sans-serif; }
+      .pulse { animation: p 2s ease-in-out infinite; transform-origin: center; }
+      @keyframes p { 0%,100%{opacity:0.5} 50%{opacity:1} }
+      .flow { animation: f 3s linear infinite; }
+      @keyframes f { to { stroke-dashoffset: -300; } }
+      .blink { animation: bl 1.4s steps(2) infinite; }
+      @keyframes bl { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="380" fill="url(#bg)" rx="8"/>
+  <rect x="20" y="20" width="1160" height="340" rx="6" fill="#06070d" stroke="#1e1b4b"/>
+
+  <!-- Header -->
+  <text x="40" y="50" class="mono" font-size="11" fill="#22d3ee" letter-spacing="3">▸ LIVE MISSION TRACKER · CURRENT OPERATION</text>
+  <g transform="translate(1160,50)" text-anchor="end">
+    <text class="mono" font-size="11" fill="#10b981" letter-spacing="2"><tspan class="blink">●</tspan> LIVE · UPTIME 142d</text>
+  </g>
+
+  <!-- Central mission orb -->
+  <g transform="translate(600,200)">
+    <circle r="120" fill="url(#spot)" class="pulse"/>
+    <circle r="80" fill="none" stroke="url(#g1)" stroke-width="1.4" filter="url(#b)"/>
+    <circle r="60" fill="none" stroke="#22d3ee" stroke-width="0.6" stroke-dasharray="2 6"/>
+
+    <circle r="40" fill="#0a0a1a" stroke="url(#g1)" stroke-width="1.4"/>
+    <text text-anchor="middle" y="-4" class="mono" font-size="9" fill="#22d3ee" letter-spacing="3">MISSION</text>
+    <text text-anchor="middle" y="10" class="mono" font-size="9" fill="#a78bfa" letter-spacing="3">ACTIVE</text>
+
+    <!-- 4 cardinal satellites -->
+    <g fill="url(#g1)" stroke="none" filter="url(#b)">
+      <circle cx="0"   cy="-100" r="6"/>
+      <circle cx="100" cy="0"   r="6"/>
+      <circle cx="0"   cy="100" r="6"/>
+      <circle cx="-100" cy="0"  r="6"/>
+    </g>
+
+    <!-- Connections to satellites -->
+    <g stroke="url(#g1)" stroke-width="0.8" stroke-dasharray="4 6" class="flow" fill="none" opacity="0.7">
+      <line x1="0" y1="-40" x2="0" y2="-100"/>
+      <line x1="40" y1="0" x2="100" y2="0"/>
+      <line x1="0" y1="40" x2="0" y2="100"/>
+      <line x1="-40" y1="0" x2="-100" y2="0"/>
+    </g>
+  </g>
+
+  <!-- 4 mission panels -->
+  <g transform="translate(40,80)">
+    <rect width="220" height="240" rx="6" fill="#06070d" stroke="#22d3ee"/>
+    <text x="14" y="22" class="mono" font-size="9" fill="#22d3ee" letter-spacing="2">▌ MISSION · 01</text>
+    <text x="14" y="50" class="sans" font-size="14" font-weight="700" fill="#e2e8f0">SHIP @ REDROB</text>
+    <text x="14" y="70" class="mono" font-size="9" fill="#64748b">// ML Engineering · production</text>
+
+    <g transform="translate(14,90)" class="mono" font-size="9">
+      <text fill="#94a3b8">PIPELINE STATUS</text>
+      <text x="200" text-anchor="end" fill="#10b981">● OK</text>
+      <rect y="6" width="200" height="4" rx="2" fill="#0d0d1a"/>
+      <rect y="6" width="180" height="4" rx="2" fill="#22d3ee"/>
+
+      <text y="28" fill="#94a3b8">DEPLOY FREQUENCY</text>
+      <text x="200" y="28" text-anchor="end" fill="#22d3ee">3.2/wk</text>
+
+      <text y="48" fill="#94a3b8">INCIDENTS</text>
+      <text x="200" y="48" text-anchor="end" fill="#10b981">0 OPEN</text>
+
+      <text y="68" fill="#94a3b8">UPTIME</text>
+      <text x="200" y="68" text-anchor="end" fill="#10b981">99.9%</text>
+    </g>
+
+    <text x="14" y="220" class="mono" font-size="9" fill="#a78bfa">▶ live · contributing</text>
+  </g>
+
+  <g transform="translate(940,80)">
+    <rect width="220" height="240" rx="6" fill="#06070d" stroke="#a78bfa"/>
+    <text x="14" y="22" class="mono" font-size="9" fill="#a78bfa" letter-spacing="2">▌ MISSION · 02</text>
+    <text x="14" y="50" class="sans" font-size="14" font-weight="700" fill="#e2e8f0">FLAGSHIP OSS</text>
+    <text x="14" y="70" class="mono" font-size="9" fill="#64748b">// agentic framework · MIT</text>
+
+    <g transform="translate(14,90)" class="mono" font-size="9">
+      <text fill="#94a3b8">RELEASE READY</text>
+      <text x="200" text-anchor="end" fill="#a78bfa">72%</text>
+      <rect y="6" width="200" height="4" rx="2" fill="#0d0d1a"/>
+      <rect y="6" width="144" height="4" rx="2" fill="#a78bfa"/>
+
+      <text y="28" fill="#94a3b8">OPEN ISSUES</text>
+      <text x="200" y="28" text-anchor="end" fill="#f59e0b">14</text>
+
+      <text y="48" fill="#94a3b8">CONTRIBUTORS</text>
+      <text x="200" y="48" text-anchor="end" fill="#22d3ee">3</text>
+
+      <text y="68" fill="#94a3b8">TARGET</text>
+      <text x="200" y="68" text-anchor="end" fill="#94a3b8">Q4 · 2026</text>
+    </g>
+
+    <text x="14" y="220" class="mono" font-size="9" fill="#a78bfa">▶ drafting · polishing</text>
+  </g>
+
+  <g transform="translate(40,80)">
+    <g transform="translate(0, 280)">
+      <text class="mono" font-size="9" fill="#64748b" letter-spacing="2">▸ MISSION BRIEF</text>
+    </g>
+  </g>
+</svg>

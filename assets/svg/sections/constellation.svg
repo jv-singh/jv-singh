@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="Research Constellation">
+  <title>Research Constellation</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#0a0a1a"/><stop offset="100%" stop-color="#020617"/></radialGradient>
+    <radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#a78bfa" stop-opacity="0.4"/><stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+    <filter id="b"><feGaussianBlur stdDeviation="2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .mono { font-family: 'JetBrains Mono', monospace; }
+      .sans { font-family: 'Inter', system-ui, sans-serif; }
+      .pulse { animation: p 2.4s ease-in-out infinite; transform-origin: center; }
+      @keyframes p { 0%,100%{opacity:0.5} 50%{opacity:1} }
+      .flow { stroke-dasharray: 2 6; animation: f 4s linear infinite; }
+      @keyframes f { to { stroke-dashoffset: -200; } }
+    </style>
+  </defs>
+  <rect width="1200" height="360" fill="url(#bg)" rx="8"/>
+  <rect x="20" y="20" width="1160" height="320" rx="6" fill="#06070d" stroke="#1e1b4b"/>
+
+  <text x="40" y="50" class="mono" font-size="11" fill="#22d3ee" letter-spacing="3">▸ RESEARCH CONSTELLATION · INTERESTS</text>
+  <text x="1160" y="50" text-anchor="end" class="mono" font-size="9" fill="#64748b">5 STARS · GROWING</text>
+
+  <g transform="translate(600,200)">
+    <circle r="160" fill="url(#g)" class="pulse"/>
+
+    <!-- Connections -->
+    <g stroke="#a78bfa" stroke-width="0.5" stroke-dasharray="2 6" class="flow" fill="none" opacity="0.4">
+      <line x1="-260" y1="-80" x2="0" y2="0"/>
+      <line x1="200" y1="-100" x2="0" y2="0"/>
+      <line x1="-220" y1="100" x2="0" y2="0"/>
+      <line x1="240" y1="80" x2="0" y2="0"/>
+      <line x1="0" y1="-150" x2="0" y2="0"/>
+      <line x1="-260" y1="-80" x2="200" y2="-100"/>
+      <line x1="-220" y1="100" x2="240" y2="80"/>
+    </g>
+
+    <!-- Star 1 — Agentic AI -->
+    <g transform="translate(-260,-80)">
+      <circle r="22" fill="#0a0a1a" stroke="#a78bfa" stroke-width="1.4" filter="url(#b)"/>
+      <text text-anchor="middle" y="-4" class="mono" font-size="9" fill="#a78bfa" letter-spacing="2">01</text>
+      <text text-anchor="middle" y="8" class="mono" font-size="9" fill="#22d3ee" letter-spacing="2">AGENTIC AI</text>
+      <text text-anchor="middle" y="40" class="mono" font-size="9" fill="#94a3b8">autonomous · tool-use</text>
+    </g>
+
+    <!-- Star 2 — RAG architectures -->
+    <g transform="translate(200,-100)">
+      <circle r="22" fill="#0a0a1a" stroke="#22d3ee" stroke-width="1.4" filter="url(#b)"/>
+      <text text-anchor="middle" y="-4" class="mono" font-size="9" fill="#22d3ee" letter-spacing="2">02</text>
+      <text text-anchor="middle" y="8" class="mono" font-size="9" fill="#22d3ee" letter-spacing="2">RAG</text>
+      <text text-anchor="middle" y="40" class="mono" font-size="9" fill="#94a3b8">hybrid · rerank · eval</text>
+    </g>
+
+    <!-- Star 3 — Prompt engineering -->
+    <g transform="translate(-220,100)">
+      <circle r="22" fill="#0a0a1a" stroke="#ec4899" stroke-width="1.4" filter="url(#b)"/>
+      <text text-anchor="middle" y="-4" class="mono" font-size="9" fill="#ec4899" letter-spacing="2">03</text>
+      <text text-anchor="middle" y="8" class="mono" font-size="9" fill="#ec4899" letter-spacing="2">PROMPT</text>
+      <text text-anchor="middle" y="40" class="mono" font-size="9" fill="#94a3b8">measurable · reliable</text>
+    </g>
+
+    <!-- Star 4 — Computer Vision -->
+    <g transform="translate(240,80)">
+      <circle r="22" fill="#0a0a1a" stroke="#10b981" stroke-width="1.4" filter="url(#b)"/>
+      <text text-anchor="middle" y="-4" class="mono" font-size="9" fill="#10b981" letter-spacing="2">04</text>
+      <text text-anchor="middle" y="8" class="mono" font-size="9" fill="#10b981" letter-spacing="2">VISION</text>
+      <text text-anchor="middle" y="40" class="mono" font-size="9" fill="#94a3b8">detect · track · edge</text>
+    </g>
+
+    <!-- Star 5 — Evaluation -->
+    <g transform="translate(0,-150)">
+      <circle r="22" fill="#0a0a1a" stroke="#f59e0b" stroke-width="1.4" filter="url(#b)"/>
+      <text text-anchor="middle" y="-4" class="mono" font-size="9" fill="#f59e0b" letter-spacing="2">05</text>
+      <text text-anchor="middle" y="8" class="mono" font-size="9" fill="#f59e0b" letter-spacing="2">EVAL</text>
+      <text text-anchor="middle" y="-32" class="mono" font-size="9" fill="#94a3b8">benchmarks for agents</text>
+    </g>
+
+    <!-- Center — YOU -->
+    <g>
+      <circle r="40" fill="#0a0a1a" stroke="url(#bg)" stroke-width="0"/>
+      <circle r="30" fill="none" stroke="#22d3ee" stroke-width="0.6" stroke-dasharray="2 4"/>
+      <text text-anchor="middle" y="-2" class="mono" font-size="10" fill="#22d3ee" letter-spacing="3">FOCUS</text>
+      <text text-anchor="middle" y="10" class="mono" font-size="9" fill="#a78bfa" letter-spacing="3">CENTER</text>
+      <circle r="6" fill="#22d3ee" class="pulse"/>
+    </g>
+  </g>
+
+  <text x="40" y="330" class="mono" font-size="9" fill="#64748b" letter-spacing="2">▸ AGENTIC AI · RAG · PROMPT · VISION · EVALUATION</text>
+  <text x="1160" y="330" text-anchor="end" class="mono" font-size="9" fill="#22d3ee">● CONSTELLATION LIVE</text>
+</svg>
