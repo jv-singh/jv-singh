@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="200" fill="#0d1117" rx="14"/>
+  <rect width="600" height="200" fill="url(#bg3)" rx="14"/>
+  <rect x="0" y="0" width="4" height="200" fill="url(#bar3)" rx="2"/>
+  <text x="28" y="48" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" fill="#e2e8f0">Vision Bot</text>
+  <text x="28" y="74" font-family="ui-monospace, monospace" font-size="12" fill="#94a3b8" letter-spacing="1">COMPUTER VISION · INDUSTRIAL AUTOMATION</text>
+  <text x="28" y="108" font-family="-apple-system, sans-serif" font-size="14" fill="#cbd5e1">YOLO · Bottle Detection · Tracking · Counting</text>
+  <g transform="translate(28, 130)">
+    <rect x="0" y="0" width="60" height="22" rx="11" fill="rgba(245,158,11,0.2)" stroke="#f59e0b"/>
+    <text x="30" y="15" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#fcd34d">YOLO</text>
+    <rect x="68" y="0" width="80" height="22" rx="11" fill="rgba(59,130,246,0.2)" stroke="#3b82f6"/>
+    <text x="108" y="15" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#93c5fd">OpenCV</text>
+    <rect x="156" y="0" width="70" height="22" rx="11" fill="rgba(236,72,153,0.2)" stroke="#ec4899"/>
+    <text x="191" y="15" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#f9a8d4">PyTorch</text>
+  </g>
+</svg>
